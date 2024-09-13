@@ -1,0 +1,142 @@
+/* Общие стили */
+body {
+    font-family: 'Montserrat', sans-serif;
+    background-color: #faebd7;
+    color: #a1a58c;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+h1, h2 {
+    text-align: center;
+}
+
+header {
+    background-color: #a1a58c;
+    padding: 20px;
+}
+
+header h1 {
+    color: #faebd7;
+    font-size: 36px;
+    margin: 0;
+}
+/* блок навигации */
+.navigate{
+    background-color: #faebd7;
+    text-align: center;
+    color: #a1a58c;
+}
+/* Блок "Обо мне" */
+.about {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 40px 0;
+}
+
+.photo img {
+    width: 200px;
+    height: 200px;
+    border-radius: 5px; /* Квадратная фотография */
+    border: 2px solid black;
+}
+
+.description {
+    max-width: 600px;
+    margin-left: 40px;
+}
+
+.description p {
+    font-size: 18px;
+    line-height: 1.6;
+}
+
+/* Блок скиллов */
+.skills {
+    background-color: #a1a58c;
+    padding: 40px 0;
+    color: #faebd7;
+}
+
+.skills h2 {
+    color: #faebd7;
+    margin-bottom: 20px;
+}
+
+.skills ul {
+    list-style: none;
+    padding: 0;
+    text-align: center;
+}
+
+.skills li {
+    font-size: 18px;
+    margin-bottom: 10px;
+}
+
+/* Таблица одногрупников */
+.сlassmates {
+    padding: 40px 0;
+}
+
+.сlassmates table {
+    width: 80%;
+    margin: 0 auto;
+    border-collapse: collapse;
+}
+
+.сlassmates th, .сlassmates td {
+    border: 1px solid #a1a58c;
+    padding: 10px;
+    text-align: left;
+}
+
+.сlassmates th {
+    background-color: #a1a58c;
+    color: #faebd7;
+}
+
+.сlassmates td {
+    background-color: #faf3e7;
+}
+
+.сlassmates a {
+    color: #a1a58c;
+    text-decoration: none;
+}
+
+.сlassmates a:hover {
+    text-decoration: underline;
+}
+
+/* Блок любимых сайтов */
+.favorite-sites {
+    padding: 40px 0;
+    text-align: center;
+    background-color: #a1a58c ;
+}
+
+.favorite-sites h2 {
+    color: #faf3e7;
+}
+
+.favorite-sites ul {
+    list-style: none;
+    padding: 0;
+}
+
+.favorite-sites li {
+    margin-bottom: 10px;
+}
+
+.favorite-sites a {
+    color: #faf3e7;
+    font-size: 18px;
+    text-decoration: none;
+}
+
+.favorite-sites a:hover {
+    text-decoration: underline;
+}
